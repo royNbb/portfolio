@@ -19,31 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Greetings! I'm Roy Maruli Tua Nababan, deeply committed to driving  <span className="underline">positive change</span> in my community and beyond. 
+        Currently, I hold the position of <span className="font-medium">Vice President</span> at <span className="font-medium">Tanoto Scholars Association Universitas Indonesia</span>, where I co-lead efforts to create impactful and sustainable outcomes. 
+      </p>
+      <p className="mb-3">
+        My journey in project and campaign management has equipped me with valuable experience and insights. I've had the privilege of spearheading various initiatives aimed at making a difference, and I thrive on the challenges and opportunities these projects bring.
+      </p>
+      <p className="mb-3">
+        With a passion for meaningful impact, 
+        I am dedicated to leveraging my skills and knowledge to contribute to a brighter future. 
+        I look forward to continuing my journey of learning, growth, and service, always striving to make a difference wherever I go
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
     </motion.section>
   );
 }

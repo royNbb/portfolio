@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import jawabankuImg from "@/public/jawabanku.png";
+import kritisImg from "@/public/kritis.png";
+import yarImg from "@/public/yar.png";
 
 export const links = [
   {
@@ -19,14 +19,14 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -62,26 +62,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "JawabanKu",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web-based platform where students can share knowledge, collaborate, and learn together for academic purposes",
+    tags: ["Web Development", "Project Management", "Problem Solving"],
+    imageUrl: jawabankuImg,
   },
   {
-    title: "rmtDev",
+    title: "KRITIS",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A learning community for high schoolers to discover themselves through Sustainable Development Goals (SDGs).",
+    tags: ["Project Management", "Leadership", "External Comunications"],
+    imageUrl: kritisImg,
   },
-  {
-    title: "Word Analytics",
+    {
+    title: "UNESCO-YAR",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A research initiatives on digital transformation within Micro,Small, and Medium Enterprises (MSMEs) in the Jakarta region.",
+    tags: ["Social Research", "External Comunications", "Public Speaking"],
+    imageUrl: yarImg,
   },
+
 ] as const;
 
 export const skillsData = [
